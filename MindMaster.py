@@ -83,19 +83,16 @@ class StartPage(tk.Frame):
 		# label of frame Layout 2
 		label = Label(self, text ="Welcome to the Code Guess Game\nChoose an Option", font = LARGEFONT, bg="#5A47A5")
 		
-		# putting the grid in its place by using
-		# grid
+		# putting the label in its place by using grid
 		label.grid(row = 1, column = 1) 
 
 		buttononeplayer = Button(self, text ="One PLayer",
 		command = lambda : Oneplayer(controller),
 		width=17,bg="#3401FF", activebackground="#3401FF")
 	
-		# putting the button in its place by
-		# using grid
+		# putting the button in its place by using grid
 		buttononeplayer.grid(row = 3, column = 0, padx = 5)
 
-		## button to show frame 2 with text layout2
 		buttontwoplayers = Button(self, text ="Two Players",
 		command = lambda : controller.show_frame(Page2),
 		width=17,bg="#FF0101", activebackground="#FF0101")
@@ -146,7 +143,6 @@ class Page3(tk.Frame):
 			
 
 # Driver Code
-#####common variable here with change function so it can be compared in other page
 app = tkinterApp()
 app.title('Code Guess')
 app.geometry('500x500')
