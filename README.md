@@ -14,7 +14,7 @@ The Second option is that one player writes the code and the other Player tries 
 # Note 📋
 **The console📟code is commented down in the code if you don't want to use a GUI**
 
-**If you want a competetion between the 2 players in the same time you can find it on my github😺in the repo colled crack the code**
+**If you want a competetion between the 2 players in the same time you can find it on my github😺in the repo called crack the code**
 # Screens 💻
 
 ***Starter Page***
